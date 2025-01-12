@@ -264,3 +264,114 @@ header {
 }
 
 /* brands end */
+
+/* services start */
+
+.services {
+    padding-top: 84px;
+    padding-bottom: 92.5px;
+}
+
+.services-container {
+    max-width: 1100px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.services-title-container {
+    max-width: 842px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: auto;
+    margin-left: auto;
+    padding-bottom: 40px;
+}
+
+.services-title-sm {
+    font-family: Open Sans, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: left;
+    color: #777777;
+}
+
+.services-title-lg {
+    font-family: Manrope, sans-serif;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 72px;
+    text-align: center;
+    color: #000000;
+}
+
+.services-row {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    padding-top: 40px;
+}
+
+.services-col {
+    width: 300px;
+}
+
+.services-col-img {
+    margin-bottom: 24px;
+}
+
+.services-col-title {
+    font-family: Open Sans, sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: left;
+    color: #000000;
+    margin-bottom: 12px;
+}
+
+.services-col-text {
+    font-family: Open Sans, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: left;
+    color: #777777;
+    margin-bottom: 40px;
+}
+
+.services-col-explore {
+    max-width: 164px;
+}
+
+.services-col-explore-btn {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-family: Open Sans, sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 36px;
+    text-align: left;
+    line-height: 36px;
+    color: #0A2640;
+    border-bottom: 1px solid #0A2640;
+    padding-bottom: 8px;
+}
+
+@media (max-width: 1145px) {
+    .services-row {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 50px;
+    }
+
+    .services-title-lg {
+        font-size: 36px;
+        line-height: 56px;
+    }
+}
+
+/* services end */
